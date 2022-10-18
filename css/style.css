@@ -94,7 +94,19 @@ header {
     font-size: 12px;
     color: white;
  }
-
+/*colori per gli span*/
  .blu {
     background-color: deepskyblue;
+ }
+ 
+ .purple {
+    background-color: purple;
+ }
+
+ .green {
+    background-color: green;
+ }
+
+ .orange {
+    background-color: orange;
  }
