@@ -77,7 +77,12 @@ header {
     padding-top: 20px;
  }
 
- .list-items {
+ .list-items-positive {
+    padding: 10px;
+    margin-left: 25px;
+    font-family: arial; 
+ }
+ .list-items-negative {
     padding: 10px;
     margin-left: 25px;
     font-family: arial; 
@@ -87,8 +92,11 @@ header {
     list-style-type: none;
 
  }
- li::before{
+ .list-items-positive::before{
     content: '\2705';
+ }
+ .list-items-negative::before {
+    content: '\274C';
  }
 
  .span-ul {
