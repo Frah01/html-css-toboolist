@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+
+header {
+    height: 80px;
+    background-color: white;
+}
+
+.logo-toboolist {
+    width: 50px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.toboolist-text {
+    font-size: 60px;
+    font-family: arial
+    
+}
