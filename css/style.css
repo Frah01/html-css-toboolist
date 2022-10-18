@@ -80,12 +80,15 @@ header {
  .list-items {
     padding: 10px;
     margin-left: 25px;
-    font-family: arial;
+    font-family: arial; 
  }
 
- ul::before{
+ ul{
     list-style-type: none;
 
+ }
+ li::before{
+    content: '\2705';
  }
 
  .span-ul {
