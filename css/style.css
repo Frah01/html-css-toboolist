@@ -17,11 +17,15 @@ header {
     width: 50px;
     margin-top: 15px;
     margin-left: 10px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .toboolist-text {
     font-size: 50px;
     font-family: arial;
+    display: inline-block;
+    vertical-align: middle;
     
 }
 
@@ -102,10 +106,20 @@ header {
     
  }
  .list-items-positive::before{
-    content: '\2705';
+    content: '\2714';
+    color: green;
+    border: solid green;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 3px;
  }
  .list-items-negative::before {
-    content: '\274C';
+    content: '\2717';
+    color: red;
+    border: solid red;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 3px;
  }
 
  .span-ul {
