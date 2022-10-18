@@ -40,6 +40,7 @@ header {
     width: 70%;
     margin: auto;
     margin-top: 5px;
+    margin-bottom: 10px;
     background-color: white;
 }
 
@@ -72,25 +73,30 @@ header {
  
  }
 
+ /*liste*/
+
  .list-titles {
     font-family: arial;
     padding-top: 20px;
+    padding-bottom: 10px;
  }
 
  .list-items-positive {
-    padding: 10px;
-    margin-left: 25px;
+    padding-bottom: 25px;
+    padding-left: 5px;
+    
     font-family: arial; 
  }
  .list-items-negative {
-    padding: 10px;
-    margin-left: 25px;
+    padding-bottom: 25px;
+    padding-left: 5px;
+    
     font-family: arial; 
  }
 
  ul{
     list-style-type: none;
-
+    
  }
  .list-items-positive::before{
     content: '\2705';
@@ -105,6 +111,7 @@ header {
     font-size: 12px;
     color: white;
  }
+ /*fine liste*/
 /*colori per gli span*/
  .blu {
     background-color: deepskyblue;
